@@ -1,0 +1,23 @@
+.flexer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card {
+  /*max-height: 5vh;*/
+  max-width: 5em;
+  margin: 0;
+  margin: .5em;
+  border: 2px solid #fff;
+}
+#banner {
+  height: 70vh;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwEhMEbvyWgx0L-Yg3tUUx31f9iqnsvfNUc2drlHlLP6c9wfc");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}

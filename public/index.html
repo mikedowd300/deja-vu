@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Deja Vu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="/app/main.css">
+    <base href="/">
+  </head>
+  <body>
+
+    <ui-view></ui-view>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
+  <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js"></script>
+
+  <script src="/app/app.module.js"></script>
+  <script src="/app/app.config.js"></script>
+  <!-- <script src="app/services/myservice.js"></script> -->
+  <script src="app/scores/score.component.js"></script>
+
+</html>
